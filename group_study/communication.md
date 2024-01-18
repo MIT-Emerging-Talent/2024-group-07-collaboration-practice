@@ -13,7 +13,7 @@
 
 <!-- any general rules you'd like to set for your group? -->
 
-1. Be respectful and considerate of each other's opinions and perspectives.
+1. Be respectful and considerate of each others opinions and perspectives.
 2. Respond to messages and notifications in a timely manner.
 3. Keep discussions focused on the project and relevant topics.
 4. Strive for clear and concise communication.
@@ -58,11 +58,12 @@ how often will we get in touch on each channel, and what we will discuss there:
 
 ### How many hours everyone has per day:
 
-- nAMe: _5h_; extra comments?
-- nAMe: _6h_;
-- nAMe: _5h_;
-- nAMe: _4h_;
-- nAMe: _3h_;
+- Joshua Samuel : 4-5 hours
+- khalid Omer: 2-3 hours
+- Negin Ahmadi : 4 hour 
+- Masud Khani : 2-3 hours 
+- Mona Tagelsir: 2-3 hours
+
 
 ## Asking for Help
 
