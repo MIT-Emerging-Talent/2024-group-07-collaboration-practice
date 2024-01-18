@@ -36,7 +36,7 @@ The function starts by checking if the target is 0 (in which case it returns Tru
 
 ## Running Tests
 
-To verify the correctness of the implementation, a set of unit tests has been provided. These tests are located in the `test_can_sum.py` file. There are two more testcases which have been commented in this file as they are for the unimplemented functions. To run the tests, execute the following command:
+To verify the correctness of the implementation, a set of unit tests has been provided. These tests are located in the `test_can_sum.py` file. There are two more testcases which have been commented in this file as they are for the unimplemented functions. To run the tests, execute the following command in the terminal:
 
 
 python test_can_sum.py
