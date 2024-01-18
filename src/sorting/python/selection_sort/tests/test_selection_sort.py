@@ -40,6 +40,23 @@ class TestSelectionSortV1(unittest.TestCase):
 
         self.assertEqual(selectionsort_v1(array), result)
 
+    def test_duplicate_elements(self):
+        array = [3, 1, 4, 2, 3, 4, 1]
+        result = [1, 1, 2, 3, 3, 4, 4]
+
+        self.assertEqual(selectionsort_v1(array), result)
+
+    def test_negative_numbers(self):
+        array = [-5, -2, -8, -1, -3]
+        result = [-8, -5, -3, -2, -1]
+
+        self.assertEqual(selectionsort_v1(array), result)
+
+    def test_mixed_positive_and_negative_numbers(self):
+        array = [10, -5, 7, -2, 4, -1]
+        result = [-5, -2, -1, 4, 7, 10]
+
+        self.assertEqual(selectionsort_v1(array), result)
 
 if __name__ == "__main__":
     unittest.main()
