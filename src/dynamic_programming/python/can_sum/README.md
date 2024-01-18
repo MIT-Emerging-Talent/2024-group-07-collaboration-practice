@@ -1,4 +1,4 @@
-# Selection Sort Implementation
+# Can_Sum Implementation
 
 This project includes can_sum basic challenge realted to dynamic programming
 
