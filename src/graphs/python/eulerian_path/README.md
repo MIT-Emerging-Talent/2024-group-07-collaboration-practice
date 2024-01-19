@@ -4,19 +4,19 @@ Given a graph, is it possible to traverse every edge exactly once, starting and 
 
 ## Contents
 
-- [Introduction](#introduction)
-- [Implementation](#implementation)
-- [Behavior](#behavior)
-- [Test Cases](#test-cases)
-- [Running Tests](#running-tests)
+- [Introduction]
+- [Implementation]
+- [Behavior]
+- [Test Cases]
+- [Running Tests]
 
 ## Introduction
 
 For a graph to have an Eulerian path, it must satisfy the following: 
 
-a- Connectedness: The graph must be connected. In the context of Eulerian circuits, it is also required that every vertex has even degree (an even number of edges incident to it).
+a- Connectedness: The graph must be connected. In the context of Eulerian circuits, it is also required that every vertex has even degree (an even number of edges connected to it).
 
-b- Eulerian Path: If there are exactly two vertices with an odd degree in the graph, an Eulerian path is possible, and those two vertices will be the start and end points of the path. If there are no vertices with an odd degree, an Eulerian circuit is possible.
+b- Eulerian Path: If there are exactly two vertices (nodes) with an odd degree in the graph, an Eulerian path is possible, and those two vertices (nodes) will be the start and end points of the path. If there are no vertices (nodes) with an odd degree, an Eulerian circuit is possible.
 
 ## Implementation
 
@@ -35,3 +35,17 @@ The first step in the implementation is pick the algorithm, in the case here, Fl
 2 - The selected edges form the Eulerian path.  
 
 ## Test Cases
+### Test 1: Eulerian Path Exists
+- This test checks scenarios where an Eulerian path should exist in the graph.
+- **Test Cases:**
+  1. A graph with vertices `[0, 1, 2, 3]` where each vertex has degree 3.
+  2. A graph with vertices `[0, 1, 2, 3, 4]` where vertices 1 and 2 have degree 2, and the rest have degree 3.
+
+### Test 2: No Eulerian Path Exists
+- This test checks scenarios where no Eulerian path exists in the graph.
+- **Test Cases:**
+  1. A complete graph with vertices `[0, 1, 2]` where each vertex has degree 2.
+  2. A graph with vertices `[0, 1, 2, 3, 4]` where vertices 3 and 4 are connected to form an isolated component.
+
+## Running tests
+- to run the tests execute python test_eulerian_path.py 
