@@ -5,7 +5,7 @@ from eulerian_path import eulerian_path
 
 class TestEulerianPath(unittest.TestCase):
     def test_eulerian_path_exists(self):
-        # Test cases where Eulerian paths should exist
+        # Test cases where Eulerian paths exist
         graph1 = {1: [2, 3], 2: [1, 3, 4], 3: [1, 2, 4], 4: [2, 3]}
         self.assertTrue(eulerian_path(graph1))
 
